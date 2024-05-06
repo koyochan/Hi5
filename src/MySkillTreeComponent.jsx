@@ -31,7 +31,7 @@ const data_of_lego = [
                 id: 'hello-minako',
                 title: 'Hello Minako',
                 tooltip: {
-                  content: 'こんにちは、みなこさん！'
+                  content: 'こんにちは、みなこさん！',
                 }
               }
             ],
@@ -49,14 +49,14 @@ const data_of_lego = [
             id: 'hello-taikai',
             title: 'Hello Taikai',
             tooltip: {
-              content: 'こんにちは、大海さん！'
+              content: 'こんにちは、大海さん！',
             },
             children: [
               {
                 id: 'hello-saika',
                 title: 'Hello Saika',
                 tooltip: {
-                  content: 'こんにちは、さいかさん！'
+                  content: 'こんにちは、さいかさん！',
                 },
               }
             ],
