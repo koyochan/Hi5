@@ -9,7 +9,6 @@ function App() {
         <h1>Hi_5 Skill Tree</h1>
       </header>
       <MySkillTreeComponent />
-      <MySkillTreeComponent />
     </div>
   );
 }
