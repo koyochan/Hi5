@@ -39,7 +39,7 @@ const MySkillTreeComponent = () => {
       <SkillTreeGroup>
         {({ skillCount }) => (
           <SkillTree
-            treeId="first-tree"
+            treeId="Lego Education"
             title="Lego Education"
             data={data_of_lego}
             collapsible
