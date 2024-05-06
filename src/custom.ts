@@ -50,6 +50,4 @@ const defaultTheme = {
   edgeBorder: '1px solid white',
 };
 
-export type SkillTheme = typeof defaultTheme;
-
 export default defaultTheme;
