@@ -7,7 +7,7 @@ import {
 
 const data_of_lego = [
   {
-    id: '',
+    id: 'Hello-word',
     title: 'Hello World',
     tooltip: {
       content: 'このノードは最上位レベルで、アンロックされてクリック可能です。',
@@ -19,7 +19,24 @@ const data_of_lego = [
         tooltip: {
           content: 'このノードは上位ノードの子で、親が選択状態でないとロックされます。',
         },
-        children: [],
+        children: [
+          {
+            id: 'hello-Yushi',
+            title: 'Hello Yushi',
+            tooltip: {
+              content: 'こんにちは、ゆーし！',
+            },
+            children: [
+              {
+                id: 'hello-minako',
+                title: 'Hello Minako',
+                tooltip: {
+                  content: 'こんにちは、みなこさん！'
+                }
+              }
+            ],
+          }
+        ],
       },
       {
         id: 'hello-stars',
@@ -27,7 +44,24 @@ const data_of_lego = [
         tooltip: {
           content: 'このツールは自動的にレイアウトを管理します。だからこれをBeautiful Skill Treeと呼びます。',
         },
-        children: [],
+        children: [
+          {
+            id: 'hello-taikai',
+            title: 'Hello Taikai',
+            tooltip: {
+              content: 'こんにちは、大海さん！'
+            },
+            children: [
+              {
+                id: 'hello-saika',
+                title: 'Hello Saika',
+                tooltip: {
+                  content: 'こんにちは、さいかさん！'
+                },
+              }
+            ],
+          }
+        ],
       },
     ],
   },
@@ -39,7 +73,7 @@ const MySkillTreeComponent = () => {
       <SkillTreeGroup>
         {({ skillCount }) => (
           <SkillTree
-            treeId="Lego Education"
+            treeId=""
             title="Lego Education"
             data={data_of_lego}
             collapsible
